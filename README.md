@@ -18,3 +18,9 @@ Requesitos tener acceso level _ADMIN_LEVEL_G_
  * Telegram @MrPopos2 
 
  * Whatsapp pedir por telegram.
+ 
+ 
+
+_Puedes ayudarme con una donación!_
+
+https://paypal.me/joaqhoc
