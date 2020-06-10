@@ -1,41 +1,4 @@
 /* 
-
-             PLUGIN CREADO POR JKDEV
-             CREADO PARA LA COMUNIDAD IMPERIALEZ GAMING
-             PARA TODOS AQUELLOS QUE HACEN SPAM O HAN SIDO INFECTADOS POR ALGUN VIRUS/SERVER
-
-             Cambios: 
-             			v1.0 (alpha): Re configuración para el usuario infectado. Comando "amx_antivirus player".
-             			v1.0 (beta): Se agregaron nuevos comandos para los usuarios usando "unbindall".
-             			v1.0 (Oficial): Se setearon los say y registro de log para los administradores.
-             			v1.1 (Prueba): Se agrego un say comando para que lo ejecuten desde el say ej: /antivirus player
-
-*/
-
-#include <amxmodx>
-#include <amxmisc>
-
-new const g_sCommands[ ][ ] =
-{
-	"snapshot",
-	"say [Global Gaming] Antivirus Ejecutado con Exito",	
-	"unbindall",
-	"bind TAB +showscores",
-	"bind ENTER +attack",
-	"bind ESCAPE cancelselect",
-	"bind SPACE +jump",
-	"bind ' +moveup",
-	"bind + sizeup",
-	"bind , buyammo1",
-	"bind - sizedown",
-	"bind . buyammo2",
-	"bind / +movedown",
-	"bind 0 slot10",
-	"bind 1 slot1",
-	"bind 2 slot2",
-	"bind 3 slot3",
-	"bind 4 slot4",/* 
-
              PLUGIN CREADO POR JKDEV
              CREADO PARA LA COMUNIDAD IMPERIALEZ GAMING
              PARA TODOS AQUELLOS QUE HACEN SPAM O HAN SIDO INFECTADOS POR ALGUN VIRUS/SERVER
